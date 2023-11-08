@@ -1,34 +1,38 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import LabelEncoder
 import joblib
 
 # Load the dataset
-heart_data = pd.read_csv('heart.csv')
+df = pd.read_csv('heart.csv')
 
-# One-hot encode categorical variables
-heart_data_encoded = pd.get_dummies(heart_data)
+# Assuming 'Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope' are categorical
+categorical_features = ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope']
 
-# Separate the features and the target
-X = heart_data_encoded.drop('HeartDisease', axis=1)
-y = heart_data_encoded['HeartDisease']
+# Convert categorical variables using LabelEncoder
+label_encoders = {}
+for column in categorical_features:
+    label_encoders[column] = LabelEncoder()
+    df[column] = label_encoders[column].fit_transform(df[column])
 
-# Split the data into training and testing sets
+# Assuming 'Age', 'RestingBP', 'Cholesterol', 'FastingBS', 'MaxHR', 'Oldpeak' are numerical
+# and 'FastingBS' should be converted to integer if it's not already
+df['FastingBS'] = df['FastingBS'].astype(int)
+
+# Split the data into features and target
+X = df.drop('HeartDisease', axis=1)  # Assuming 'HeartDisease' is the target variable
+y = df['HeartDisease']
+
+# Split the dataset into the Training set and Test set
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Initialize the Random Forest model
-random_forest = RandomForestClassifier(random_state=42)
+# Create and train the RandomForestClassifier
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
 
-# Fit the model on the training data
-random_forest.fit(X_train, y_train)
+# Save the model
+joblib.dump(model, 'random_forest_11_features.joblib')
 
-# Predict on the test set
-y_pred = random_forest.predict(X_test)
-
-# Calculate the accuracy
-accuracy = accuracy_score(y_test, y_pred)
-print(f'Accuracy: {accuracy:.2f}')
-
-# Save the model to a file
-joblib.dump(random_forest, 'random_forest_cv_model.joblib')
+# Check the number of features
+print(model.n_features_in_)  # Should output 11
