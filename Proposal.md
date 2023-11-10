@@ -35,4 +35,5 @@ https://docs.google.com/document/d/1EoCsz4gYX7jErU0FWTcdqVrOrbX5_0L9onfTGY5TpbM/
 - Mike Strati
 - Prachi Shingvi
 - Pratik Deshmane
+- Shridhik John
 
