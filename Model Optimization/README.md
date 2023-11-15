@@ -1,4 +1,4 @@
-# Model Optimization - RandomForest_ModelOptimization_#2
+# Model Optimization
 
 ## Overview
 The `RandomForest_ModelOptimization_#2.ipynb` notebook is dedicated to the optimization of a Random Forest classifier used in our data analysis project.
