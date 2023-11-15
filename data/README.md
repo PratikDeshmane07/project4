@@ -19,7 +19,7 @@ This directory is the core of our data-related content for the project. It's org
 
 ### `SQL database`
 - Finalized and structured datasets in a SQL database format, optimized for use in queries and application development.
-- `upload_to_sqlite3.py`: Python script to upload datasets to an SQLite3 database, enabling easy access and manipulation for machine learning and analytics.
+- `data_storing.ipynb`: Python script to upload datasets to an SQLite3 database, enabling easy access and manipulation for machine learning and analytics.
 
 ### Processing Scripts
 - `KaggleData_Processing.ipynb`: A Jupyter notebook that documents the process of cleaning and preparing the Kaggle data for analysis.
