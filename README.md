@@ -4,13 +4,32 @@
 In this project, we focused on leveraging machine learning to predict heart disease, transforming raw data into actionable insights and a practical application. Our journey from data processing to model deployment showcases the blend of analytical rigor and technical proficiency.
 
 ## Repository Structure
-- `App Development`: The culmination of our work, this folder contains a Streamlit-based application, reflecting the practical application of our predictive models. The deployment process utilized `joblib` to load trained models efficiently.
-- `Model Optimization`: Here, we delve into the fine-tuning of our machine learning models, employing `scikit-learn` and specifically `GridSearchCV` for exhaustive parameter testing to ensure peak model performance. The final model boasts an accuracy of 0.8804, precision of 0.8972, and other key metrics such as an AUC-ROC of 0.8772.
-- `Model Testing`: A diverse range of models including Decision Trees, Logistic Regression, RandomForest Classifier, Support Vector Machines, and XGBoost were evaluated to determine the most effective approach for our dataset.
-- `Neural Network Models`: Features the neural network models that form the core predictive engine of the application, designed to understand complex patterns and make accurate predictions.
-- `Visualizations`: This folder houses the visual outputs that make our data analysis accessible and insightful, utilizing `matplotlib` and `seaborn` for graphical representation.
-- `archive`: A collection of supplementary data and exploratory files that have supported the project's development.
-- `data`: Central to the project, this folder contains datasets managed and manipulated with `pandas`, showcasing extensive data cleaning, preprocessing, and preparation for modeling.
+- `App Development`: 
+  - Contains the Streamlit-based application, utilizing `joblib` for model deployment.
+- `Model Optimization`: 
+  - Features `scikit-learn` for model tuning, with a focus on `GridSearchCV` for parameter optimization.
+  - Final model performance metrics:
+    - Accuracy: 0.8804
+    - Precision: 0.8972
+    - Recall: 0.8972
+    - F1 Score: 0.8972
+    - AUC-ROC: 0.8772
+    - R2 Score: 0.5837
+- `Model Testing`: 
+  - Evaluates a range of models to determine the most effective:
+    - Decision Trees
+    - Logistic Regression
+    - RandomForest Classifier
+    - Support Vector Machines
+    - XGBoost
+- `Neural Network Models`: 
+  - Contains neural network models designed for pattern recognition and predictions.
+- `Visualizations`: 
+  - Houses visual outputs from `matplotlib` and `seaborn` for data representation.
+- `archive`: 
+  - A collection of supplementary and exploratory files.
+- `data`: 
+  - Managed with `pandas`, includes both raw and processed datasets, demonstrating extensive data processing.
 
 ## Team Members
 - Calvin Kleber
@@ -24,13 +43,4 @@ In this project, we focused on leveraging machine learning to predict heart dise
 We extend our appreciation to [UC Berkeley Extension Data Analytics Boot Camp](https://bootcamp.berkeley.edu/data/), which provided the environment that fostered our growth and collaboration.
 
 We are also grateful to the machine learning community for their contributions that inspired our project:
-- The "Heart Failure Prediction" Kaggle project by fedesoriano, found at [Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction), was a significant source of inspiration.
-- The original heart disease dataset authors provided a solid foundation for our analysis:
-  - Janosi, Andras
-  - Steinbrunn, William
-  - Pfisterer, Matthias
-  - Detrano, Robert
-
-The original dataset, sourced from the UCI Machine Learning Repository and dating back to June 30, 1988, was crucial in our project's development. Further details on the dataset can be found here:
-
-Janosi, Andras; Steinbrunn, William; Pfisterer, Matthias; Detrano, Robert. (1988). Heart Disease. UCI Machine Learning Repository. [https://archive.ics.uci.edu/ml/datasets/heart+disease](https://doi.org/10.24432/C52P4X).
+- The "Heart Failure Prediction" Kaggle project by fedesoriano, found
