@@ -1,7 +1,6 @@
 Heart Disease Detection App -
 
-This is an app built upon testing and leveraging machine learning models learned in this class. This app is catered towards doctors based on multiple risk factors that doctors will have access to such as Age, cholesterol levels, and blood pressure to help identify whether or not a patient is at risk. A tool like this will not only help a doctor make smarter decisions faster, it will allow them to know what features a patient should spend more time focusing on improving.
-
+In the Heart Disease Prediction App" Folder you will find an app built upon leveraging machine learning models learned in this class. This app is catered towards doctors based on multiple risk factors that doctors will have access to such as Age, cholesterol levels, and blood pressure to help identify whether or not a patient is at risk. A tool like this will not only help a doctor make smarter decisions faster, it will allow them to know what features a patient should spend more time focusing on improving.
 
 You may need these dependencies:
 pip install streamlit
