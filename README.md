@@ -10,3 +10,9 @@ pip install -U scikit-learn
 In order to run this file you will need to run the following:
 python train_model.py     #This will train the model we use and create a random_forest_11_features.joblib file that will be used
 streamlit run your_app.py      #This will open up the app in a new browser
+
+Tableau link: 
+https://public.tableau.com/app/profile/calvin.kleber/viz/Project4Tableau_16994211257000/ChestPaintypeswithHeartDisease
+
+Used Tableau to create, find, and recognize early patterns with heart diseases and its variables. 
+Created 4 visualization and 2 dashboards. 
