@@ -43,4 +43,6 @@ We are also grateful to the machine learning community for their contributions t
   - Pfisterer, Matthias
   - Detrano, Robert
 
-The original dataset,
+The original dataset, sourced from the UCI Machine Learning Repository and dating back to June 30, 1988, was crucial in our project's development. Further details on the dataset can be found here:
+
+Janosi, Andras; Steinbrunn, William; Pfisterer, Matthias; Detrano, Robert. (1988). Heart Disease. UCI Machine Learning Repository. [https://archive.ics.uci.edu/ml/datasets/heart+disease](https://doi.org/10.24432/C52P4X).
