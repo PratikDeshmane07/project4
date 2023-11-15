@@ -3,9 +3,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 import joblib
+import sqlite3
 
 # Load the dataset
-df = pd.read_csv('heart.csv')
+connection=sqlite3.connect('heart.db')
+
+query='SELECT * FROM heart_disease'
+
+df = pd.read_sql(query, connection)
 
 # Assuming 'Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope' are categorical
 categorical_features = ['Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina', 'ST_Slope']
@@ -36,3 +41,6 @@ joblib.dump(model, 'random_forest_11_features.joblib')
 
 # Check the number of features
 print(model.n_features_in_)  # Should output 11
+
+# close connection
+connection.close()
