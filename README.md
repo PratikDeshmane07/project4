@@ -1,9 +1,11 @@
 # Heart Disease Prediction App Project
 
 ## Overview
+
 In this project, we focused on leveraging machine learning to predict heart disease, transforming raw data into actionable insights and a practical application. Our journey from data processing to model deployment showcases the blend of analytical rigor and technical proficiency.
 
 ## Repository Structure
+
 - `App Development`: Contains the Streamlit-based application, utilizing joblib for model deployment.
 - `Model Optimization`: Features scikit-learn for model tuning, with a focus on GridSearchCV for parameter optimization.
   - Final model performance metrics:
@@ -17,7 +19,6 @@ In this project, we focused on leveraging machine learning to predict heart dise
   - Decision Trees
   - Logistic Regression
   - RandomForest Classifier
-  - Support Vector Machines
   - XGBoost
 - `Neural Network Models`: Contains neural network models designed for pattern recognition and predictions.
 - `Visualizations`: Houses visual outputs from matplotlib and seaborn for data representation.
@@ -25,6 +26,7 @@ In this project, we focused on leveraging machine learning to predict heart dise
 - `data`: Managed with pandas, includes both raw and processed datasets, demonstrating extensive data processing.
 
 ## Team Members
+
 - Calvin Kleber
 - Prachi Shingvi
 - Pratik Deshmane
@@ -33,9 +35,11 @@ In this project, we focused on leveraging machine learning to predict heart dise
 - Shridhik John
 
 ## Acknowledgments
+
 We extend our appreciation to [UC Berkeley Extension Data Analytics Boot Camp](https://bootcamp.berkeley.edu/data/), which provided the environment that fostered our growth and collaboration.
 
 We are also grateful to the machine learning community for their contributions that inspired our project:
+
 - The "Heart Failure Prediction" Kaggle project by fedesoriano, found at [Heart Failure Prediction](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction), was a significant source of inspiration.
 - The original heart disease dataset authors provided a solid foundation for our analysis:
   - Janosi, Andras
