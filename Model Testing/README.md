@@ -50,7 +50,7 @@ Accuracy Score - MinMax Scaled Dataset
   - RandomForest Classifier
   - XGBoost
 
-- `Dataframes Tested` in each Model:
+`Dataframes Tested` in each Model:
   - One-Hot Encoded Integer Dataset
   - MinMax Scaler Dataset
   - Standard Scaler Dataset
