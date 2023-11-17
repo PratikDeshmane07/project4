@@ -41,7 +41,7 @@ Accuracy Score - MinMax Scaled Dataset
 - 4 - Deep Learning-Adam Optimizer - 85.6 %
 - 5 - Decision Tree Classifier - 78.8 %
 
-# Model Performance - Confusion Matrix
+# Model Performance - Confusion Matrix (One-Hot Integer DataSet)
 
 True Positives:
 - 1 - Random Forest Classifier: 94
