@@ -58,7 +58,7 @@ The optimization process utilized the following key tools and libraries:
 
 ## Instructions
 
-If running the Model Testing .ipynb notebooks, be sure to replace the CSV file path for the  `data2` variable below:
+If running any of the Model Testing `.ipynb` notebooks, be sure to replace the CSV file path for the  `data2` variable below:
 
 - `data2 = pd.read_csv('static_[null]/heart_integer_v01.csv')`
 
