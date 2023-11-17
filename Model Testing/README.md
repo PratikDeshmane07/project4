@@ -41,6 +41,18 @@ Accuracy Score - MinMax Scaled Dataset
 - 4 - Deep Learning-Adam Optimizer - 85.6 %
 - 5 - Decision Tree Classifier - 78.8 %
 
+## Model Performance - Accuracy
+
+| Accuracy Score - One-Hot Integer Dataset | Accuracy Score - StandardScaler Scaled Dataset | Accuracy Score - MinMax Scaled Dataset |
+|------------------------------------------|-----------------------------------------------|----------------------------------------|
+| 1 - Random Forest Classifier - 88.5 %    | 1 - Random Forest Classifier - 88.5 %         | 1 - Random Forest Classifier - 88.5 %  |
+| 2 - XGBoost - 88.0 %                     | 2 - XGBoost - 88.0 %                          | 2 - XGBoost - 88.0 %                   |
+| 3 - Deep Learning-Adam Optimizer - 86.5 %| 3 - Deep Learning-Adam Optimizer - 86.5 %     | 3 - Logistic Regression - 86.4 %      |
+| 4 - Logistic Regression - 85.3 %         | 4 - Logistic Regression - 85.3 %              | 4 - Deep Learning-Adam Optimizer - 85.6 % |
+| 5 - Decision Tree Classifier - 79.8 %    | 5 - Decision Tree Classifier - 78.2 %         | 5 - Decision Tree Classifier - 78.8 % |
+
+
+
 # Model Performance - Confusion Matrix (One-Hot Integer DataSet)
 
 True Positives:
