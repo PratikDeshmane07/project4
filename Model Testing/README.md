@@ -44,13 +44,13 @@ The optimization process utilized the following key tools and libraries:
 
 ## Models & DataFrames
 
-`Models Tested`:
+Models Tested:
   - Decision Trees
   - Logistic Regression
   - RandomForest Classifier
   - XGBoost
 
-`Dataframes Tested` in each Model:
+DataFrames Tested in each Model:
   - One-Hot Encoded Integer Dataset
   - MinMax Scaler Dataset
   - Standard Scaler Dataset
