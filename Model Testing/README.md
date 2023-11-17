@@ -3,7 +3,7 @@
 ## Model Testing
 
 ## Purpose
-These notebooks aim to Test 3 types of encoded DataSets (One-Hot Encoded Integer Dataset, MinMax Scaler Dataset, Standard Scaler Dataset) across 4 Models  (Decision Trees, Logistic Regression, RandomForest Classifier, XGBoost)
+These notebooks aim to Test 3 types of encoded DataSets (One-Hot Encoded Integer Dataset, MinMax Scaler Dataset, Standard Scaler Dataset) across 4 Models  (Decision Trees, Logistic Regression, RandomForest Classifier, XGBoost). Primary goal was to find Highest Accuracy Score and Lowest False Negatives.
 
 ## Tools Used
 
