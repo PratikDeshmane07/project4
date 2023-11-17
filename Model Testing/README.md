@@ -41,6 +41,32 @@ Accuracy Score - MinMax Scaled Dataset
 - 4 - Deep Learning-Adam Optimizer - 85.6 %
 - 5 - Decision Tree Classifier - 78.8 %
 
+# Model Performance - Confusion Matrix
+
+True Positives:
+- 1. Random Forest Classifier: 94
+- 2. XGBoost: 92
+- 3. Logistic Regression: 90
+- 4. Decision Tree Classifier: 82
+
+True Negatives:
+- 1. XGBoost: 70
+- 2. Random Forest Classifier: 69
+- 3. Logistic Regression: 67
+- 4. Decision Tree Classifier: 65
+
+False Positives:
+- 1. Decision Tree Classifier: 12
+- 2. Logistic Regression: 10
+- 3. Random Forest Classifier: 8
+- 4. XGBoost: 7
+
+False Negatives:
+- 1. Decision Tree Classifier: 25
+- 2. Logistic Regression: 17
+- 3. XGBoost: 15
+- 4. Random Forest Classifier: 13
+
 
 ## Models & DataFrames
 
