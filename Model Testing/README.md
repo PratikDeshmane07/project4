@@ -80,6 +80,18 @@ False Negatives:
 - 4 - Random Forest Classifier: 13
 
 
+# Model Performance - Confusion Matrix (One-Hot Integer DataSet)
+
+
+| True Positives                  | True Negatives                  | False Positives                | False Negatives                |
+|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| 1 - Random Forest Classifier: 94 | 1 - XGBoost: 70                 | 1 - Decision Tree Classifier: 12 | 1 - Decision Tree Classifier: 25 |
+| 2 - XGBoost: 92                   | 2 - Random Forest Classifier: 69 | 2 - Logistic Regression: 10     | 2 - Logistic Regression: 17     |
+| 3 - Logistic Regression: 90       | 3 - Logistic Regression: 67     | 3 - Random Forest Classifier: 8 | 3 - XGBoost: 15                 |
+| 4 - Decision Tree Classifier: 82 | 4 - Decision Tree Classifier: 65 | 4 - XGBoost: 7                  | 4 - Random Forest Classifier: 13|
+
+
+
 ## Models & DataFrames
 
 `Models Tested`:
