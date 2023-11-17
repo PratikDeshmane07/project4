@@ -21,7 +21,7 @@ In this project, we focused on leveraging machine learning to predict heart dise
   - RandomForest Classifier
   - XGBoost
 - `Neural Network Models`: Contains neural network models designed for pattern recognition and predictions.
-- `Visualizations`: Houses visual outputs from matplotlib and seaborn for data representation.
+- `Visualizations`: Houses visual outputs from matplotlib and seaborn for data representation. (tableau link: https://public.tableau.com/app/profile/calvin.kleber/viz/Project4Tableau_16994211257000/ChestPaintypeswithHeartDisease)
 - `archive`: A collection of supplementary and exploratory files.
 - `data`: Managed with pandas, includes both raw and processed datasets, demonstrating extensive data processing.
 
